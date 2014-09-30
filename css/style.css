@@ -4,7 +4,13 @@ body {
   body img {
     border-radius: 10px; }
 
+h2 {
+  text-transform: uppercase; }
+
 h3 {
   text-transform: uppercase; }
+
+li {
+  list-style-type: none; }
 
 /*# sourceMappingURL=style.css.map */
