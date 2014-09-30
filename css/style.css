@@ -1,3 +1,10 @@
+body {
+  width: 500px;
+  text-align: center; }
+  body img {
+    border-radius: 10px; }
 
+h3 {
+  text-transform: uppercase; }
 
 /*# sourceMappingURL=style.css.map */
