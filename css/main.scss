@@ -8,4 +8,18 @@ body {
 
 h3 {
   text-transform: uppercase;
+  background-color: HSLA(338, 85%, 54%, 1);
+  border-radius: 10px;
+}
+#num_one {
+  background-color: HSLA(198, 100%, 41%, 1);
+  color: HSLA(327, 100%, 50%, 1);
+}
+#num_two {
+  background-color: HSLA(201, 94%, 81%, 1);
+  color: HSLA(327, 100%, 50%, 1);
+}
+.answer {
+  color: HSLA(198, 100%, 41%, 1);
+  font-size: 30px;
 }
