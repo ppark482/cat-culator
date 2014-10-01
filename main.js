@@ -9,8 +9,16 @@ submit.onclick = function () {
   solution.innerHTML = output;
 }
 
-var inputField;
+var output,
+inputField = document.getElementById(inputField),
+seven = document.getElementById('seven');
 
-li.onclick = function () {
-  totalInput = document.getElementById('inputField');
+// var compile = function () {
+//   output = eval(inputField.value);
+//   getElementById('inputField').innerHTML;
+// }
+
+seven.onclick = function () {
+  inputField.innerHTML = 7;
+  console.log('seven');
 }
