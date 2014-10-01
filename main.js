@@ -8,3 +8,9 @@ submit.onclick = function () {
   output = Number(first.value) + Number(second.value);
   solution.innerHTML = output;
 }
+
+var inputField;
+
+li.onclick = function () {
+  totalInput = document.getElementById('inputField');
+}
