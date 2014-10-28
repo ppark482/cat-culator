@@ -9,9 +9,9 @@ submit.onclick = function () {
   solution.innerHTML = output;
 }
 
-var output,
+var output, buttonpush, inputArray = [],
 inputField = document.getElementById(inputField),
-seven = document.getElementById('seven');
+seven = document.getElementById('seven'), eight = document.getElementById('eight'), plus = document.getElementById('plus');
 
 // var compile = function () {
 //   output = eval(inputField.value);
@@ -19,6 +19,13 @@ seven = document.getElementById('seven');
 // }
 
 seven.onclick = function () {
-  inputField.innerHTML = 7;
-  console.log('seven');
+  inputArray.push(7);
+}
+eight.onclick = function () {
+  inputArray.push(8);
+}
+plus.onclick = function () {
+  inputArray.reduce(function(previousValue, currentValue, index, array) {
+    return previousValue + currentValue;
+  });
 }

@@ -1,1 +1,3 @@
-Cat-culator JavaScript Project
+## Cat-culator JavaScript Project
+
+# A Basic Calculator created using JavaScript
